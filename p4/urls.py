@@ -22,4 +22,7 @@ urlpatterns = [
     path('index/',views.index,name='index'),
     path('r/',views.home,name="rocky"),
     path('new/',views.dir,name="new"),
+    path('new2/',views.third,name='new2'),
+    path('new3/',views.forth,name='fruits'),
+    path('new4/',views.fifth,name='greatest number'),
 ]

@@ -9,3 +9,13 @@ def home(request):
 
 def dir(request):
     return render(request,"directory/new.html")
+
+def  third(request):
+    return render(request,"directory/new2.html", context={'data':'rocky','name':'roopendra'})
+
+def forth(request):
+    fruits=['apple','orange','mango','pineapple','kiwi']
+    return render(request,"directory/new3.html",{'fruits':fruits})
+
+def fifth(request):
+    return render(request,"directory/new4.html",{'a':10,'b':5})
