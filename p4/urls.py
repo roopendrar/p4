@@ -25,4 +25,8 @@ urlpatterns = [
     path('new2/',views.third,name='new2'),
     path('new3/',views.forth,name='fruits'),
     path('new4/',views.fifth,name='greatest number'),
+    path('new5/<ab>',views.ab,name='ab'),
+    path('cd/<cd>',views.cd,name='cd'),
+    path('xy/<x>/<y>/<z>',views.xy,name='xy'),
+    path('vc/<str>',views.vc,name='vc'),
 ]
